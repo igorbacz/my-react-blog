@@ -1,0 +1,14 @@
+.contactInfo{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    line-height: 40px;
+}
+
+.contactTitle{
+    font-size: 22px;
+}
+
+.locationIcon{
+    margin-right: 30px;
+}
