@@ -1,26 +1,30 @@
+import React from "react";
 import "./contactInfo.css";
+import ContactForm from "./../ContactForm/ContactForm";
 
-export default function ContactInfo() {
+const ContactInfo = () => {
   return (
-    <div>
-      <div className="contactInfo">
-        <span className="contactTitle">CONTACT INFO</span>
-        <div className="contactAdress">
-          <span className="contactTitle">LOCATION</span>
-        </div>
-        <div className="location">
+    <div className="contact">
+      <div className="contact_info">
+        <h2 className="contact_info-header">Location</h2>
+        <div className="contact_info-piece">
           <i className="locationIcon fas fa-location-arrow"></i>
-          Stary Rynek 37, Poznań
+          <p>Stary Rynek 37, Poznań</p>
         </div>
-        <div className="location">
+        <div className="contact_info-piece">
           <i className="locationIcon fas fa-phone-alt"></i>
-          +48 123 456 789
+          <p>+48 123 456 789</p>
         </div>
-        <div className="location">
+        <div className="contact_info-piece">
           <i className="locationIcon fas fa-envelope"></i>
-          poznan.restaurant@restaurant.com
+          <p>poznan.restaurant@restaurant.com</p>
         </div>
+      </div>
+      <div className="contact_form">
+        <ContactForm />
       </div>
     </div>
   );
-}
+};
+
+export default ContactInfo;
