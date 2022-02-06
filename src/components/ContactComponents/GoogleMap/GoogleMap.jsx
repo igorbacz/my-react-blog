@@ -8,7 +8,7 @@ const Marker = (props) => {
   return <div className="googlePin"></div>;
 };
 
-class MapContainer extends Component {
+class GoogleMap extends Component {
   static defaultProps = {
     center: {
       lat: 52.408708,
@@ -29,4 +29,4 @@ class MapContainer extends Component {
   }
 }
 
-export default MapContainer;
+export default GoogleMap;
