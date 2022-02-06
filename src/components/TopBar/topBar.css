@@ -7,8 +7,17 @@
     z-index: 999;
     font-family: "Josefin Sans", sans-serif;
 
+
+}
+.link{
+    color: #575353;
+      text-decoration: none;
+
 }
 
+.link:hover{
+    font-weight: 700;
+}
 .topLeft{
     flex:2;
     padding: 0; 
@@ -25,7 +34,7 @@
 .topIcon{
     font-size: 20px;
     margin-right: 10px;
-    color: rgb(9, 41, 9);
+    color: #575353;
     cursor: pointer;
 
 }
@@ -36,6 +45,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+color: black;
 }
 
 .menuItem{
@@ -44,6 +54,7 @@
     font-weight: 300;
     color: rgb(9, 41, 9);
     cursor: pointer;
+
 } 
 .topSearch{
     margin-right: 50px;

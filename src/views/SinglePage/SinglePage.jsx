@@ -1,17 +1,17 @@
 import React from "react";
-import SinglePost from "../../components/singlePost/SinglePost";
+import SinglePost from "../../components/SinglePost/SinglePost";
 import "./singlePage.css";
-import Sidebar from "../../components/sidebar/Sidebar";
-import Header from "../../components/header/Header";
+import SideBar from "../../components/SideBar/SideBar";
 import "./singlePage.css";
+import TopBar from "../../components/TopBar/TopBar";
 
 export default function SinglePage() {
   return (
     <div>
-      <Header />
+      <TopBar />
       <div className="singlePage">
         <SinglePost />
-        <Sidebar />
+        <SideBar />
       </div>
     </div>
   );
