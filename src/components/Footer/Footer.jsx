@@ -16,7 +16,17 @@ export default function Footer() {
             </Link>
           </li>
           <li className="menuItem">BLOG</li>
-          <li className="menuItem"> SHOP</li>
+          <li className="menuItem">
+            {" "}
+            <Link className="link" to="Shop">
+              SHOP
+            </Link>
+          </li>
+          <li className="menuItem">
+            <Link className="link" to="Write">
+              WRITE
+            </Link>
+          </li>
           <li className="menuItem">
             {" "}
             <Link className="link" to="ContactPage">

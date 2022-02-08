@@ -1,0 +1,49 @@
+.shopItem{
+ padding: 0;
+ display: grid;
+ margin-left: 30px;
+ margin-bottom: 30px;
+grid-template-columns: 100px 200px 100px ;
+    grid-template-rows: repeat(3,minmax(100px,auto));
+grid-gap: 20px ; 
+ background-color: white;
+ font-family: "Lora", serif;
+ color: hsl(0, 1%, 26%);
+ grid-template-areas: 
+  "top top top"
+  "left center right"
+  ;
+}
+.shopItem-piece{
+    grid-area: "top";
+}
+.inputShop{
+    grid-area: left;
+        width:100px;
+     font-family: "Lora", serif;
+    color: hsl(0, 1%, 26%);
+}
+.price{
+    grid-area: center;
+
+}
+.shopButton{
+    background-color: pink;
+    color: blueviolet;
+    border: none;
+    width: 75px;
+    height: 35px;
+     font-family: "Lora", serif;
+    color: hsl(0, 1%, 26%);
+    grid-area: right;
+}
+
+.imgShopItem{
+    margin: 20px 20px;
+    width: 300px;
+}
+
+.shopButton:hover{
+    background-color: blueviolet;
+    color: pink;
+}
