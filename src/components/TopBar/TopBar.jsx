@@ -44,6 +44,18 @@ export default function TopBar() {
                 SETTINGS
               </Link>
             </li>
+            <li className="menuItem">
+              {" "}
+              <Link className="link" to="Login">
+                LOGIN
+              </Link>
+            </li>
+            <li className="menuItem">
+              {" "}
+              <Link className="link" to="Register">
+                REGISTER
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="topSearch">

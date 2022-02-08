@@ -1,11 +1,9 @@
 import React from "react";
-import TopBar from "../../components/TopBar/TopBar";
 import "./write.css";
 
 export default function Write() {
   return (
     <div className="write">
-      <TopBar />
       <img className="writeImg" src="https://images.indianexpress.com/2020/01/nail-polish-1.jpg" alt="" />
       <form className="writeForm">
         <div className="writeFormGroup">

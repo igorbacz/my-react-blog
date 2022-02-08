@@ -53,5 +53,29 @@ margin: 10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
+.settingsForm >label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsForm >input {
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+}
+
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+  background-color: lightcoral;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
