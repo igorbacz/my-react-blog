@@ -1,7 +1,7 @@
 .post{
     width: 385px;
     height: 475px;
-    margin: 0px 25px 40px 25px;
+    margin: 40px 25px 40px 25px;
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -33,6 +33,7 @@
 }
 
 .postTitle{
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: rgb(9, 41, 9);
     font-weight: 900;
@@ -41,6 +42,8 @@
 }
 
 .postDate{
+      font-family: "Lora", serif;
+
     font-size: 13px;
     font-weight: 400;
     color: rgb(9, 41, 9);
