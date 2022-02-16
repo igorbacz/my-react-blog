@@ -16,14 +16,14 @@ function App() {
     <div className="App">
       <TopBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="ContactPage" element={<ContactPage />} />
-        <Route path="SinglePage" element={<SinglePage />} />
-        <Route path="Shop" element={<Shop />} />
-        <Route path="Write" element={<Write />} />
-        <Route path="Settings" element={<Settings />} />
-        <Route path="Login" element={<Login />} />
-        <Route path="Register" element={<Register />} />
+        <Route path="/" exact element={<Home />} />
+        <Route path="contact_page" element={<ContactPage />} />
+        <Route path="single_page" element={<SinglePage />} />
+        <Route path="shop" element={<Shop />} />
+        <Route path="write" element={<Write />} />
+        <Route path="settings" element={<Settings />} />
+        <Route path="login" element={<Login />} />
+        <Route path="register" element={<Register />} />
       </Routes>
     </div>
   );
