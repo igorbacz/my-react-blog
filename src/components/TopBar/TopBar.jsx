@@ -16,43 +16,43 @@ export default function TopBar() {
         <div className="topRight">
           <ul className="topList">
             <li className="menuItem">
-              <Link className="link" to="/">
+              <Link className="link" exact to="/">
                 HOME
               </Link>
             </li>
             <li className="menuItem">BLOG</li>
             <li className="menuItem">
-              <Link className="link" to="Shop">
+              <Link className="link" to="shop">
                 {" "}
                 SHOP
               </Link>
             </li>
             <li className="menuItem">
-              <Link className="link" to="Write">
+              <Link className="link" to="write">
                 WRITE
               </Link>
             </li>
             <li className="menuItem">
               {" "}
-              <Link className="link" to="ContactPage">
+              <Link className="link" to="contact_page">
                 CONTACT
               </Link>
             </li>
             <li className="menuItem">
               {" "}
-              <Link className="link" to="Settings">
+              <Link className="link" to="settings">
                 SETTINGS
               </Link>
             </li>
             <li className="menuItem">
               {" "}
-              <Link className="link" to="Login">
+              <Link className="link" to="login">
                 LOGIN
               </Link>
             </li>
             <li className="menuItem">
               {" "}
-              <Link className="link" to="Register">
+              <Link className="link" to="register">
                 REGISTER
               </Link>
             </li>
